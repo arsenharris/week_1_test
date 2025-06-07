@@ -1,0 +1,121 @@
+body {
+    background-color: white;
+}
+
+.header {
+    display:flex;
+    float:right;
+    justify-content: space-between;
+    
+}
+
+.nav{
+    display:flex;
+    gap: 30px;               
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.cta{
+    background-color: #8246AF;
+    padding: 70px ;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-style: bold;
+    color: white;
+    border-radius: 25px;
+}
+
+.course{
+    display:flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.workshop{
+    display:inline-block;
+    width: 80%;
+    background-color: #A87EC7;
+    border-radius: 25px;
+    margin: 10px;
+    padding:30px;
+
+}
+.flash{
+    display:inline-block;
+    width: 80%;
+    background-color: #A87EC7; 
+    border-radius: 25px;
+    margin: 10px;
+    padding:30px;
+
+}
+
+.plus{
+    display:inline-block;
+    width: 80%;
+    background-color: #A87EC7 ;
+    border-radius: 25px;
+    margin: 10px;
+    padding:30px;
+
+}
+
+h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+.button{
+    background-color: #FFA300;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 16px;
+
+}
+.button1{
+    background-color: #FFA300;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inputmessage {
+    width: 100%;
+    height: 100px; /* makes the message box taller */
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.submit {
+    background-color: #FFA300;
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+}
+
+#fname{
+    width: 100%;
+    height: 20px;
+}
+
+#city{
+    width: 100%;
+}
